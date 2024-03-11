@@ -9,10 +9,10 @@ function Starthere() {
 
 
             <div className=" cursor-pointer flex flex-col items-left ">
-                <div className='px-15  '  > 
-                    <h1 className='text-2xl  ' >Start here. Change the world.</h1> 
+                <div className='px-15 text-left pl-10 '  > 
+                    <h1 className='text-3xl mr-10 text-extrabold p-5 -mb-14  ' >Start here. Change the world.</h1> 
                 </div>
-                <div className='grid grid-cols-3 p-5 g-2'>
+                <div className='grid grid-cols-3  p-5 g-2'>
                         
                         <div className='px-5 p-4 '>
                         <div className='p-4 text-justify cursor-pointer '><img src={frameone} className=" w-m  *:" alt="" />
