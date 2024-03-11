@@ -12,11 +12,11 @@ function Starthere() {
                 <div className='px-15  '  > 
                     <h1 className='text-2xl  ' >Start here. Change the world.</h1> 
                 </div>
-                <div className='grid grid-cols-3 p-5 g-5'>
+                <div className='grid grid-cols-3 p-5 g-2'>
                         
                         <div className='px-5 p-4 '>
                         <div className='p-4 text-justify cursor-pointer '><img src={frameone} className=" w-m  *:" alt="" />
-                        <h5 className='text-[#000e54] text-left text-xl  text-bold mt-7'>National Innovative 
+                        <h5 className='text-[#000e54] text-left text-xl  text-extrabold mt-7'>National Innovative 
                         Diploma (NID)</h5></div>
                         <div className='text-wrap p-4 text-justify  '>
                         The National Innovation Diploma (NID) offered at SQI College of ICT is 
@@ -26,16 +26,48 @@ function Starthere() {
 
                         <div className='mt-4 px-5 text-left'>
                             <button className='' >Learn More</button>
-                            <hr className='mt-3 outline-4 shadow-lg'></hr>
+                            <hr className='mt-3  shadow-lg border-t-2 border-dashed border-gray-500 my-4'></hr>
                         </div>
                         </div>
 
-                        <div>
-                        <img src={frametwo} className=" w-m  *:" alt="" />
+                        {/* second grid */}
+
+                        <div className='px-5 p-4 '>
+                        <div className='p-4 text-justify cursor-pointer '><img src={frametwo} className=" w-m  *:" alt="" />
+                        <h5 className='text-[#000e54] text-left text-xl  text-extrabold mt-7'>Professional Diploma Certificate</h5></div>
+                        <div className='text-wrap p-4 text-justify  '>
+                        The Professional Certificate Program is 1 year practical training with wide range of edge-cutting IT certification courses offered in SQI College of ICT to people who want to advance their career.
                         </div>
-                        <div>
-                        <img src={framethree} className=" w-m  *:" alt="" />
+
+
+                        <div className='mt-4 px-5 text-left'>
+                            <button className='' >Learn More</button>
+                            <hr className='mt-3  shadow-lg border-t-2 border-dashed border-gray-500 my-4'></hr>
                         </div>
+                        </div>
+
+                        {/* third grid */}
+
+                        <div className='px-5 p-4 '>
+                        <div className='p-4 text-justify cursor-pointer '><img src={framethree} className=" w-m  *:" alt="" />
+                        <h5 className='text-[#000e54] text-left text-2xl  text-extrabold  mt-7'>Certification Program</h5></div>
+                        <div className='text-wrap p-4 text-justify  '>
+                        The Certificate Program is a short-term training, 2 weeks to 6 months with a wide range of edge-cutting IT certification courses offered in SQI College of ICT to people who want to advance their careers.
+                        </div>
+
+
+                        <div className='mt-4 px-5 text-left'>
+                            <button className='' >Learn More</button>
+                            <hr className='mt-3  shadow-lg border-t-2 border-dashed border-gray-500 my-4'></hr>
+                        </div>
+                        </div>
+
+
+
+
+
+
+                   
 
                 </div>
             </div>
