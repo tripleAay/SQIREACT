@@ -28,4 +28,4 @@ function Take() {
   )
 }
 
-export default Take
+export default Take;

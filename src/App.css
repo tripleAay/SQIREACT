@@ -46,3 +46,9 @@
 Stubborn{
   width: 300px
 }
+
+.Pix{
+
+  filter: Grayscale(100%);
+
+}

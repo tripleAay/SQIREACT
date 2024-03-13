@@ -2,6 +2,7 @@ import React from 'react'
 import frameone from "./images/college.jpg"
 import frametwo from "./images/prof.jpg"
 import framethree from "./images/certificate.jpg"
+import "./App.css"
 
 function Starthere() {
   return (
@@ -33,7 +34,7 @@ function Starthere() {
                         {/* second grid */}
 
                         <div className='px-5 p-4 '>
-                        <div className='p-4 text-justify cursor-pointer '><img src={frametwo} className=" w-m  *:" alt="" />
+                        <div className='p-4 text-justify cursor-pointer '><img src={frametwo} className=" Pix   w-m  *:" alt="" />
                         <h5 className='text-[#000e54] text-left text-xl  text-extrabold mt-7'>Professional Diploma Certificate</h5></div>
                         <div className='text-wrap p-4 text-justify  '>
                         The Professional Certificate Program is 1 year practical training with wide range of edge-cutting IT certification courses offered in SQI College of ICT to people who want to advance their career.
